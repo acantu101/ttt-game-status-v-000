@@ -67,7 +67,7 @@ def over?(board)
 end
 
 def winner(board)
-if won?(board) 
+if won?(board)
   combo = won?(board)
   binding.pry
   
