@@ -67,6 +67,7 @@ end
 
 def winner(board)
 if won?(board)
+  binding.pry
   return combo[0]
 end
 end
